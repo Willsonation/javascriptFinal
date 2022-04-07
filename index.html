@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+	<div id = "title">
+		<h1>The Calculators</h1>
+	</div>
+	<div class="calc" id = "content">
+		<h3>Percent Calculator</h3>
+		<p>X is what percent of Y?</p>
+		<form id="percentForm">
+			<input type = "text" id="numField1"> is what percent of 
+			<input type = "text" id="numField2"> ?<br><br>
+			<button type="button" id="calc1">Calculate</button>
+			
+		</form>
+		<h3 id="numResultField"></h3>
+	</div>
+	<div class="calc" id = "content2">
+		<h3>Cone Calculator</h3>
+		<p>Input the radius and height of your cone.</p>
+		<form id="coneCalc">
+			Radius: <input type = "text" id="numField3">
+			Height: <input type = "text" id="numField4"><br><br>
+			<input id="calc2" type = "button" value = "Calculate">
+		</form>
+		<h3 id="coneVolume"></h3>
+		<h3 id="coneArea"></h3>
+	</div>
+	<div class="calc" id = "content3">
+		<h3>Cylinder Calculator</h3>
+		<p>Input the radius and height of your cylinder.</p>
+		<form id="cylinderCalc">
+			Radius: <input type = "text" id="numField5">
+			Height: <input type = "text" id="numField6"><br><br>
+			<input id="calc3" type = "button" value = "Calculate">
+		</form>
+		<h3 id="cylinderVolume"></h3>
+		<h3 id="cylinderArea"></h3>
+	</div>
+	<div class="calc" id = "content4">
+		<h3>Distance Calculator</h3>
+		<p>Input the X and Y values of two points.</p>
+		<form id="distanceCalc">
+			x1: <input type = "text" id="numField7">
+			y1: <input type = "text" id="numField8"><br>
+			x2: <input type = "text" id="numField9">
+			y2: <input type = "text" id="numField10"><br><br>
+			<input id="calc4" type = "button" value = "Calculate">
+		</form>
+		<h3 id="distance"></h3>
+	</div>
+	<div class="calc" id = "content5">
+		<h3>Law of Cosines</h3>
+		<p>Input two triangle side lengths and the angle separating them in degrees.</p>
+		<form id="lawcosCalc">
+			Side 1: <input type = "text" id="numField11"><br>
+			Side 2: <input type = "text" id="numField12"><br>
+			Angle: <input type = "text" id="numField13"><br><br>
+			<input id="calc5" type = "button" value = "Calculate">
+		</form>
+		<h3 id="side3"></h3>
+	</div>
+	<div class="calc" id = "content6">
+		<h3>Quadratic Formula</h3>
+		<p>Input the numbers for A, B, and C in the equation ax^2+bx+c.</p>
+		<form id="quadCalc">
+			A : <input type = "text" id="numField14"><br>
+			B : <input type = "text" id="numField15"><br>
+			C : <input type = "text" id="numField16"><br><br>
+			<input id="calc6" type = "button" value = "Calculate">
+		</form>
+		<h3 id="quadthag"></h3>
+	</div>
+	<div class="calc" id = "content7">
+		<h3>Pythagorean Theorum</h3>
+		<p>Input two known values and set the unknown equal to zero.</p>
+		<form id="pythagCalc">
+			A : <input type = "text" id="numField17"><br>
+			B : <input type = "text" id="numField18"><br>
+			C : <input type = "text" id="numField19"><br><br>
+			<input id="calc7" type = "button" value = "Calculate">
+		</form>
+		<h3 id="thirdValue"></h3>
+	</div>
+	<div class="calc" id = "content8">
+		<h3>Slope Calculator</h3>
+		<p>Input the X and Y values of two points.</p>
+		<form id="distanceCalc">
+			x1: <input type = "text" id="numField20">
+			y1: <input type = "text" id="numField21"><br>
+			x2: <input type = "text" id="numField22">
+			y2: <input type = "text" id="numField23"><br><br>
+			<input id="calc8" type = "button" value = "Calculate">
+		</form>
+		<h3 id="slope"></h3>
+	</div>
+	<div class="calc" id = "content9">
+		<h3>Sphere Calculator</h3>
+		<p>Input the radius of the sphere.</p>
+		<form id="sphereCalc">
+			Radius: <input type = "text" id="numField24"><br><br>
+			<input id="calc9" type = "button" value = "Calculate">
+		</form>
+		<h3 id="sphereVolume"></h3>
+		<h3 id="sphereArea"></h3>
+	</div>
+	<script type = "text/javascript" src="script.js"></script>
+</body>
+</html>

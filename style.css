@@ -1,0 +1,35 @@
+body{
+    background-color: blanchedAlmond;
+    text-align: center;
+}
+#title{
+    border: 3px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: black;
+}
+.calc{
+    border: 3px solid black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+input{
+    background-color: blanchedalmond;
+}
+button{
+    background-color: blanchedalmond;
+}
+
+div { 
+    background-image: url("images/puddin.jpg");
+    background-size: cover;
+    background-size: 100% 100%;
+    color: white;
+    font-size: 18px;
+}
+
+filter: hue-rotate(90deg);

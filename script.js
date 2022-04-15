@@ -215,8 +215,8 @@ document.getElementById("calc9").addEventListener('click', function(event){
 	}else{
 		var rad = parseFloat(num24Field.value);
 
-		var vol = (4/3)*pi*rad*rad*rad;
-		var ar = 4*pi*rad*rad;
+		var vol = (4/3)*pi*(Math.pow(rad,3));
+		var ar = 4*pi*(Math.pow(rad,2));
 		sphereVolume.innerHTML="The volume of the sphere is: " + vol + " cubic units.";
 		sphereArea.innerHTML="The surface area of the sphere is: " + ar + " square units.";
 

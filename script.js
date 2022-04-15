@@ -50,7 +50,7 @@ document.getElementById("calc3").addEventListener('click', function(event){
 		var radius = parseFloat(num5Field.value);
 		var height = parseFloat(num6Field.value);
 
-		var volume = pi*radius*radius*height;
+		var volume = Math.pow(radius,2) * Math.PI * height;
 		var area = 2*pi*Math.pow(radius,2) + 2*pi*radius*height;
 		cylinderVolume.innerHTML="Volume: " + volume + " cubic units.";
 		cylinderArea.innerHTML="Surface area: " + area + " square units.";

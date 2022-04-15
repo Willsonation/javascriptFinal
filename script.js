@@ -30,7 +30,7 @@ document.getElementById("calc2").addEventListener('click', function(event){
 		var radius = parseFloat(num3Field.value);
 		var height = parseFloat(num4Field.value);
 
-		var volume = (1/3)*pi*radius*radius*height;
+		var volume = (Math.pow(radius,2)*pi*height)/3;
 		var area = pi*Math.pow(radius,2) + pi*radius*(Math.sqrt((Math.pow(height,2)+Math.pow(radius,2))));
 		coneVolume.innerHTML="Volume: " + volume + " cubic units.";
 		coneArea.innerHTML="Surface area: " + area + " square units.";
